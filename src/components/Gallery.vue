@@ -88,13 +88,13 @@ export default {
       ></v-img>
     </v-row>
 
-    <v-row align=end justify=center class="mt-auto">
+    <v-row justify=center class="mt-auto">
       <v-col align=center>
         <v-btn
           v-show=isNotFirstElement
           data-cy="prev_button"
           icon="fas fa-arrow-left"
-          size="small"
+          size="default"
           @click="previousElement"
         >Button</v-btn>
       </v-col>
@@ -102,7 +102,7 @@ export default {
         <v-btn
           data-cy="ear"
           :icon="audio_icon"
-          size="small"
+          size="default"
           @click="toogleAudio"
         >Button</v-btn>
       </v-col>
@@ -111,7 +111,7 @@ export default {
           v-show="isNotLastElement"
           data-cy="next_button"
           icon="fas fa-arrow-right"
-          size="small"
+          size="default"
           @click="nextElement"
         >Button</v-btn>
       </v-col>
