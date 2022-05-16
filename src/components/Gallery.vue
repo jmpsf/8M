@@ -83,7 +83,7 @@ export default {
         :src="getImage(active_id)"
         contain
         eager
-        max-height="82vh"
+        max-height="82%"
         alt="Foto"
       ></v-img>
     </v-row>
